@@ -20,42 +20,41 @@ body {
 
 main {
     background-color: var(--color-darkGrey);
-    width: 20%;
-    height: 70%;
+    width: 23%;
+    height: 77%;
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
     margin: auto;
-    padding: 20px 35px;
+    padding: 30px;
     text-align: center;
     border-radius: 8px;
-    
 }
 
 
 #image {
     border-radius: 50%;
-    width: 40%;
-    margin-bottom: 20px;
+    width: 42%;
+    margin-bottom: 25px;
 }
 
 #name {
-    font-size: 20px;
+    font-size: 24px;
+    white-space: nowrap;
     font-weight: 600;
     margin-bottom: 8px;
 }
 
 #location {
-    font-size: 12px;
     font-weight: 600;
     color: var(--color-green);
     margin-bottom: 25px;
 }
 
 p {
-    font-size: 12px;
+    font-family: sans-serif;
     margin-block: 15px;
 }
 
@@ -64,12 +63,12 @@ button {
     background-color: var(--color-grey);
     color: var(--color-white);
     font-family: Inter, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     border: none;
     border-radius: 8px;
-    width: 100%;
+    width: 96%;
     margin-block: 8px;
-    padding: 12px; 
+    padding: 12.5px; 
 }
 
 button:hover {
@@ -83,6 +82,9 @@ button:hover {
         width: 300px;
         height: 77%;
         padding: 10px 25px;
+    }
+    button {
+        padding: 10px;
     }
 }
 

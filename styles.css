@@ -23,12 +23,12 @@ body {
 
 main {
     background-color: var(--color-darkGrey);
-    width: 350px;
-    height: 580px;
+    width: 360px;
+    height: 590px;
     position: absolute;
     right: 0; left: 0; top: 0; bottom: 0;
     margin: auto;
-    padding: 28px;
+    padding: 25px;
     text-align: center;
     border-radius: 10px;
 }
@@ -36,8 +36,8 @@ main {
 
 #image {
     border-radius: 50%;
-    width: 88px;
-    margin-bottom: 20px;
+    width: 90px;
+    margin: 15px 0 8px;
 }
 
 #name {
@@ -50,6 +50,7 @@ main {
 #location {
     font-weight: 500;
     color: var(--color-green);
+    font-size: 14px;
     line-height: 1.5;
     margin-bottom: 25px;
 }

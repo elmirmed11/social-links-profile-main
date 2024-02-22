@@ -1,4 +1,6 @@
-*, ::after, ::before {
+*,
+*::after, 
+*::before {
     box-sizing: border-box;
 }
 
@@ -21,17 +23,14 @@ body {
 
 main {
     background-color: var(--color-darkGrey);
-    width: 23%;
-    height: 77%;
+    width: 350px;
+    height: 580px;
     position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+    right: 0; left: 0; top: 0; bottom: 0;
     margin: auto;
-    padding: 25px;
+    padding: 28px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 
@@ -58,7 +57,7 @@ main {
 p {
     font-family: sans-serif;
     color: var(--color-lightGrey);
-    margin-block: 15px;
+    margin: 15px 0 8px;
 }
 
 
@@ -70,8 +69,8 @@ button {
     font-weight: 600;
     border: none;
     border-radius: 8px;
-    width: 92%;
-    margin-block: 8px;
+    width: 280px;
+    margin-top: 16px;
     padding-block: 13px; 
 }
 
@@ -81,16 +80,9 @@ button:hover {
     color: var(--color-darkGrey);
 }
 
-/*still not responsive*/
-@media (min-width: 350px) and (max-width: 800px) {
+@media (min-width: 350px) and (max-width: 600px) {
     main {
-        width: 330px;
-        height: 70%;
         padding: 14px;
-    }
-    button {
-        padding-block: 15px;
-        font-size: 14px;
     }
 }
 

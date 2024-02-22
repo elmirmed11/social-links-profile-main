@@ -36,7 +36,7 @@ main {
 
 #image {
     border-radius: 50%;
-    width: 40%;
+    width: 88px;
     margin-bottom: 20px;
 }
 
@@ -65,7 +65,7 @@ button {
     background-color: var(--color-grey);
     color: var(--color-white);
     font-family: Inter, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     border: none;
     border-radius: 8px;
@@ -80,9 +80,11 @@ button:hover {
     color: var(--color-darkGrey);
 }
 
-@media (min-width: 350px) and (max-width: 600px) {
-    main {
-        padding: 14px;
+@media (max-width: 500px) {
+    button {
+        width: 100%;
+        padding-block: 14px;
+        font-size: 13px;
     }
 }
 

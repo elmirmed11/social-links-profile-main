@@ -1,1 +1,1 @@
-Hello, and welcome to my 2nd project.. have fun and make your self at home.
+Thanks for checking out this front-end coding challenge.
